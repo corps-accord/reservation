@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>STUDIO KUMIKO HOSSEGOR</h1>
+        <div class="soins">
+            <a class="soin-link"
+                href="https://calendly.com/studiokumiko/corpsaccord-drainage-lymphatique-renata-franca">
+                <div class="soin">
+                    <h2>CorpsAccord - Drainage Lymphatique RENATA FRANCA (1h)</h2>
+                    <p>Drainage Lymphatique corps entier 1h * Améliore la circulation sanguine et
+                        lymphatique * Elimine un max de déchets * Réduit les ballonnements et améliore la digest…
+                    </p>
+                </div>
+            </a>
+            <a class="soin-link"
+                href="https://calendly.com/studiokumiko/corpsaccord-drainage-lymphatique-femme-enceinte?">
+                <div class="soin">
+                    <h2>CorpsAccord - Drainage lymphatique-Femme enceinte (RF)</h2>
+                    <p>
+                        Drainage Lymphatique Femme enceinte Méthode Renata Franca (sans la partie abdomen - 45min) 1 séance : 100€ Cure 5 séances : 450€ Contre-indications : * Prendre…
+                    </p>
+                </div>
+            </a>
+            <a class="soin-link"
+                href="https://calendly.com/studiokumiko/corpsaccord-miracle-face-methode-renata">
+                <div class="soin">
+                    <h2>CorpsAccord - Miracle Face méthode RENATA FRANCA</h2>
+                    <p>
+                        Drainage du Visage - soin prestige (30min) * Redessine le visage * Affine la peau * Effet liftant immédiat * Nettoie la peau * Allège le visage * Dégonfle le visa…
+                    </p>
+                </div>
+            </a>
+            <a class="soin-link"
+                href="https://calendly.com/studiokumiko/corpsaccord-drainage-lymphatique-renata-corps-visage">
+                <div class="soin">
+                    <h2>CorpsAccord - Drainage Lymphatique Renata Corps+visage</h2>
+                    <p>
+                        Drainage Lymphatique corps entier 1h * Améliore la circulation sanguine et lymphatique * Elimine un max de déchets * Réduit les ballonnements et améliore la digest…
+                    </p>
+                </div>
+            </a>
+            <a class="soin-link"
+                href="https://calendly.com/studiokumiko/after-surf-massage-haut-du-corps">
+                <div class="soin">
+                    <h2>AFTER SURF - massage haut du corps</h2>
+                    <p>
+                        La rame a eu raison de tes bras, ton dos et tes trapèzes ? J'ai le meilleur soin pour te soulager ! Un mélange de techniques musculaires et relaxantes, avec une …
+                    </p>
+                </div>
+            </a>
+            <a class="soin-link"
+                href="https://calendly.com/studiokumiko/corpsaccord-soin-personnalise">
+                <div class="soin">
+                    <h2>CorpsAccord - Soin Personnalisé</h2>
+                    <p>
+                        1h = 80€ Soin 100% personnalisé en fonction de vos ressentis et de vos besoins du moment. Types de paiement acceptés : Chèque, espèces, virement bancaire
+                    </p>
+                </div>
+            </a>
+            <a class="soin-link"
+                href="https://calendly.com/studiokumiko/corpsaccord-soin-musculaire">
+                <div class="soin">
+                    <h2>CorpsAccord - Soin Musculaire</h2>
+                    <p>
+                        30min = 45€ 1h = 80€ Soin sous le signe du relâchement musculaire, tissulaire selon vos besoins. Types de paiement acceptés : Chèque, espèces, virement bancaire
+                    </p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!-- STYLE -->
+    <style>
+        body {
+            background-color: #fbfcfd;
+            padding: 66px 132px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: "proxima-nova", sans-serif;
+        }
+
+        .container {
+            box-shadow: 0 1px 8px 0 rgb(0 0 0 / 8%);
+            border: 1px solid rgba(26, 26, 26, 0.1);
+            border-radius: 8px;
+            background-color: #fff;
+            padding: 20px 100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .container h1 {
+            color: rgba(26, 26, 26, 0.61);
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 24px;
+            margin: 30px 0 20px 0;
+        }
+
+        .soins {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 40px;
+        }
+
+        .soins a {
+            text-decoration: none;
+        }
+
+        .soin {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            border-top: 1px solid rgba(26, 26, 26, 0.1);
+        }
+
+        .soin:hover {
+            background-color: rgba(26, 26, 26, 0.1);
+        }
+
+        .soin h2 {
+            font-weight: 700;
+            font-size: 18px;
+            color: #0a2540;
+        }
+
+        .soin p {
+            font-size: 14px;
+            color: #0a2540;
+        }
+
+        /* Responsive */
+        @media (max-width: 1021px) {
+            body {
+                padding: 20px;
+            }
+
+            .container {
+                padding: 20px; 
+                width: 100%;
+            }
+
+            .soins {
+                grid-template-columns: 1fr;
+                padding: 20px 0;
+            }
+
+            .soin {
+                padding: 20px;
+            }
+        }
+
+
+    </style>
+
+</body>
+
+</html>
